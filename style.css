@@ -1,0 +1,101 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/notebook-with-wish-list-side-dollars-pen-lie-blue-background_359031-25984.jpg?w=900");
+    font-family: sans-serif;
+    margin: 0 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+
+  
+  .app {
+    background-color: skyblue;
+    width: 600px;
+    height: 700px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: bold;
+  }
+h4 {
+  text-align: center;
+  padding-bottom: 3rem;
+  text-decoration: bold;
+  color: white
+}
+
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #date div{
+    color: orangered;
+  }
+  .fa-plus {
+    background-color: blue;
+    padding: 4px;
+    border-radius: 3px;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  
+  #tasks div {
+    border: 3px solid orangered;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 7px;
+    padding: 4px;
+    text-align: center;
+    display: grid;
+    gap: 1px;
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+  }
+  .filtered {
+    display: none !important;
+  }
+
+  .options {
+    color: orangered;
+  }
+
+  @media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
